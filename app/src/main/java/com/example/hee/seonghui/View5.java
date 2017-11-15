@@ -62,6 +62,7 @@ public class View5 extends AppCompatActivity {
             out.close();
 
             result.setText("file saved");
+            input.setText("");
         } catch (Exception e) {
             result.setText("Exception: internal file writing");
         }
